@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <script src="./main.js" text="type/javascript"></script>
+</head>
+<body>
+    <button type="button" id="btn" onmouseover="OnMouseOver()"  onmouseout="OnMouseOut()">Click Me</button>
+    <hr>
+    <input type="submit" onclick="return OnClick()"/>
+    <hr>
+    <h3>
+        First Name : 
+        <input type="text" id="firstName" onkeyup="Validation('firstName')" onblur="Validation('firstName')">
+    </h3>
+    <h3>
+        Last Name : 
+        <input type="text" id="lastName" onkeyup="Validation('lastName')" onblur="Validation('lastName')">
+    </h3>
+    <hr>
+</body>
+</html>
