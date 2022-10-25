@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <script type="text/javascript">
+        function validate(){
+            var userName = document.getElementById("name");
+            var passWord = document.getElementById("password");
+            if(userName.value.trim() == "" || passWord.value.trim() == ""){
+                alert("No blank values allowed");
+                return false;
+            }else{
+                true;
+            }
+        }
+        
+    </script>
+</head>
+<body>
+    <form onsubmit="return validate()" action="message.html">
+        <input type="text" id="name" placeholder="User Name"><br>
+        <input type="password" id="password" placeholder="Password"><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
