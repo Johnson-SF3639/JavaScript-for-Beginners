@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(79, 77, 77);
+}
+.mainTable{
+    width: 55%;
+    margin: 5% auto;
+    background-color: white;
+}
+.header{
+    display: flex;
+}
+.header img{
+    width: 40px;
+    height: 40px;
+}
+.header a{
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.mid-col{
+    padding-left: 5%;
+    line-height: 5px;
+}
+.tableForm{
+    width: 50%;
+}
+.tableForm select{
+    width: 84%;
+}
+
+.tableForm button{
+    width: 32%;
+}
+
+.validationText{
+    border-style: solid;
+    width: 88%;
+    border-color:rgb(255, 0, 0);
+}
+.ValidationBox{
+    display: none;
+}
+.deptValidationBox{
+    display: none;
+}
+.bookValidationBox{
+    display: none;
+}
+.emailValidationBox{
+    display: none;
+}
+.authorValidationBox{
+    display: none;
+}
+.publishedValidationBox{
+    display: none;
+}
+.priceValidationBox{
+    display: none;
+}
+
+.footer{
+    font-size: 13px;
+    padding: 1%;
+}

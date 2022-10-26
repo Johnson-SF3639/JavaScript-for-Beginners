@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Assignment</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body onload="ShowDetails()">
+    <div class="container">
+        <table border="1" class="mainTable">
+            <thead>
+                <tr>
+                    <td>
+                        <div class="header">
+                            <img src="./img/logo.png" alt="logo"/>
+                            <p>Library Portal<a href=""><b>Books</b></a></p> 
+                        </div>
+                    </td>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <td>
+                        <div class="footer">
+                            Copyright @2019 - present Syncfusion 
+                        </div>
+                    </td>
+                </tr>
+            </tfoot>
+            <tr>
+                <td class="mid-col">
+                    <h2 id="showHead"></h2>
+                        <table class="tableForm">
+                            <tr>
+                                <td>Category</td>
+                                <td><p id="departmentName"></p></td>
+                            </tr>
+                            <tr>
+                                <td>Book</td>
+                                <td><p id="bookName"></p></td>
+                            </tr>
+                            <tr>
+                                <td>Author Email</td>
+                                <td><p id="email"></p></td>
+                            </tr>
+                            <tr>
+                                <td>Author Name</td>
+                                <td><p id="authorName"></p></td>
+                            </tr>
+                            <tr>
+                                <td>Published</td>
+                                <td><p id="published"></p></td>
+                            </tr>
+                            <tr>
+                                <td>Price</td>
+                                <td><p id="price"></p></td>
+                            </tr>
+                        </table>
+                </td>
+            </tr>
+        </table>
+    </div>    
+    <script src="show.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

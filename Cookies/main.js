@@ -11,6 +11,6 @@ function setColorCookies(){
     var selectColor = document.getElementById("ddlname").value;
     if(selectColor != "Select Color"){
         document.bgColor = selectColor;
-        document.cookie="Color ="+selectColor+";expires=Fir, 5 Aug 2023 01:00:00 UTC;"
+        document.cookie="Color ="+selectColor+";expires=Fir, 5 Aug 2023 01:00:00 UTC;";
     }
 }
