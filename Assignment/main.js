@@ -30,18 +30,11 @@ function Books(category, bookName, authorEmail, authorName, published, price) {
 }
 
 function validationBook() {
-    console.log(categoryValue);
-    console.log(bookNameValue);
-    console.log(authorEmailValue);
-    console.log(authorNameValue);
-    console.log(publishedValue);
-    console.log(priceValue);
     if (categoryValue && bookNameValue && authorEmailValue && authorNameValue && publishedValue && priceValue) {
         var bookObject = new Books(category.value, bookName.value, authorEmail.value, authorName.value, published.value, price.value);
         document.getElementById("ValidationText").innerHTML = "Successfully Submitted";
         errorText.style.display = 'block';
         document.cookie = "Details=" + JSON.stringify(bookObject);
-        console.log("1st ", bookObject);
         ValidationText.style.color = 'green';
     } else {
         document.getElementById("ValidationText").innerHTML = "Fill The Blank";
@@ -124,6 +117,7 @@ function AuthorValidation(text) {
         authorValidationText.style.color = 'red';
     }
     else if (currentAuthor.value.length > 50) {
+
         document.getElementById("authorValidationText").innerHTML = "Book name length should not exceed 50";
         authorErrorText.style.display = 'block';
         authorValidationText.style.color = 'red';

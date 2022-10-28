@@ -44,7 +44,7 @@ body{
 .deptValidationBox{
     display: none;
 }
-.bookValidationBox{
+.bookValidationBox{ 
     display: none;
 }
 .emailValidationBox{
